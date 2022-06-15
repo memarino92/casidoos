@@ -15,5 +15,3 @@ const longText = (string: string, multiplier: number): string => {
     
     return resultString
 }
-
-console.log(longText('lol', -1))
