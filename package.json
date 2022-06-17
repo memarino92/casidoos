@@ -5,5 +5,8 @@
   "repository": "https://github.com/memarino92/cassidoos.git",
   "author": "memarino92 <memarino92@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "vitest": "^0.15.1"
+  }
 }
