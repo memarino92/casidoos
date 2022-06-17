@@ -2,6 +2,8 @@ name: JavaScript CI
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
 jobs:
   build:
     name: Build
@@ -18,6 +20,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Check out code
         uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn install
+        shell: bash
       - name: Test
         run: yarn vitest run
         shell: bash
