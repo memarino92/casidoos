@@ -1,0 +1,9 @@
+{
+  "name": "cassidoos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/memarino92/cassidoos.git",
+  "author": "memarino92 <memarino92@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
