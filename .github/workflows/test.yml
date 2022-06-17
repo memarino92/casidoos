@@ -21,7 +21,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
       - name: Install dependencies
-        run: yarn Install
+        run: yarn install
         shell: bash
       - name: Test
         run: yarn vitest run
